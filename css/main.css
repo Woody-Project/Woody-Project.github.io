@@ -1,6 +1,6 @@
 .noscroll { position: fixed; overflow: hidden }
 
-html, body {overscroll-behavior: contain;}
+html, body {overscroll-behavior: contain; height: 100%; width: 100%;}
 
 /*iframe {
     height: 300px;

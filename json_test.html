@@ -1,1 +1,21 @@
-'{"iframes":["<html><body><iframe src=\"https://i.simmer.io/@TheRoccoB/flappy-bird-style\"?playsinline=1\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></body></html>","<html><body><iframe src=\"https://i.simmer.io/@CamoccStudios/desiccated\"?playsinline=1\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></body></html>"]}'
+<!DOCTYPE html>
+<html>
+
+<body>
+<pre id="jtext"></pre>
+
+<script>
+    var obj =  {
+        "iframes":
+        [
+            "<html><body><iframe src=\"https://i.simmer.io/@TheRoccoB/flappy-bird-style\"?playsinline=1\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></body></html>",
+    "<html><body><iframe src=\"https://i.simmer.io/@CamoccStudios/desiccated\"?playsinline=1\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></body></html>"
+        ]
+    }
+
+    var str = JSON.stringify(obj, null, 2);
+    document.getElementById("jtext").innerHTML = str;
+</script>
+
+</body>
+</html> 
